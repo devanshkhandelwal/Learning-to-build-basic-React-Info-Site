@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 
-function temporaryName() {
+function TemporaryName() {
     return (
         <div>
             <img src="./react-logo.png" width="40px" />
@@ -18,4 +18,4 @@ function temporaryName() {
     )
 }
 
-ReactDOM.render(temporaryName(), document.getElementById("root"))
+ReactDOM.render(<TemporaryName />, document.getElementById("root"))
